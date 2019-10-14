@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:500,900&display=swap&subset=korean" rel="stylesheet">
+	
+	<style type="text/css">
+		html { font-family: 'Noto Sans KR', sans-serif;}
+		
+		header{margin: 20px;}
+
+		h1{font-size: 27px; font-weight: 500; text-align: center; padding-top: 15px;}
+		
+		body{margin:0;}
+		
+		#frame{width: 93.5%; margin-left: 3.5%; margin-right: 3%;}
+		
+		.pic{width: 100%; height: auto;}
+
+		
+		.artwork{width:270px; height: auto; float: left; 
+			margin-left:20px; margin-left:20px; margin-bottom:20px; 
+			transition: all 0.4s; overflow: hidden;} 
+	</style>
+
+	<title>개인 웹페이지 갈아엎기 계획</title>
+</head>
+
+	<header> 
+		<h1>박한솔 / incolore9@gmail.com / 
+		<a href="https://www.instagram.com/hansol_park.otf/">
+			@hansol_park.otf
+			</a>
+		</h1>
+	</header>
+
+<body id="mybody">
+	
+	<div id="frame">
+		<div id="A" class="artwork">
+			<img src="test1.jpg" class="pic"></div>			
+		
+		<div id="B" class="artwork">
+			<img src="test2.jpg" class="pic"></div>		
+
+		<div id="C" class="artwork">
+			<img src="test1.jpg" class="pic"></div>
+		
+		<div id="D" class="artwork">
+			<img src="test2.jpg" class="pic"></div>
+		
+		<div id="E" class="artwork">
+			<img src="test1.jpg" class="pic"></div>
+		
+		<div id="F" class="artwork">
+			<img src="test2.jpg" class="pic"></div>
+
+		<div id="G" class="artwork">
+			<img src="test2.jpg" class="pic"></div>
+
+		<div id="H" class="artwork">
+			<img src="test1.jpg" class="pic"></div>
+
+		<div id="I" class="artwork">
+			<img src="test2.jpg" class="pic"></div>
+		
+		</div>
+	</div>
+
+			<script type="text/javascript">
+			
+				var Alarge = 1
+				A.onclick = function () {
+				  Alarge = Alarge+1
+		         if(Alarge%2==0){
+		            A.style.width = "580px"; A.style.height = "auto"; 
+		         }else{
+		            A.style.width = "270px"; A.style.height = "auto";
+		         }
+		      }
+
+		      var Blarge = 1
+				B.onclick = function () {
+				  Blarge = Blarge+1
+		         if(Blarge%2==0){
+		            B.style.width = "580px";
+		            B.style.height = "780px"; 
+		         }else{
+		            B.style.width = "270px";
+		            B.style.height = "375px";
+		         }
+		      }
+
+
+
+		   </script>
+</body>
+</html>
